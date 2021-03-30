@@ -71,7 +71,7 @@ public class Euclid {
         return i;
       }
       
-      public static int[] gcdextended (int a, int b) // Находим X и Y из уравнения Ax+By=d(GCD)
+      public static int[] gcdextended (int a, int b) // Находим X и Y из уравнения Ax+By=d(GDC)
       {
           int res[] = new int [3]; // d,x,y
           if (b==0)
